@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.introslider.About">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="                                   About Us\n
+We, here at India Mistry, consider and believe our customers and their lives to be our prime priority. We provide a diverse variety of services at your doorstep to make your lives easier and more efficient.The wide spectrum of trusted home services provided by us comprises that of Electricians, Plumbers, Carpenters, Painters, etc. Our skilled workers are equipped with a solution to almost all your daily housekeeping problems.With the emergence of technology and growing importance of digital era in our lives, we have extended our services to that of photography and film-making as well. With highly skilled and productive professionals working in each of these fields, we ensure that premium quality of work is done and delivered to you.Not only this, but our personalized Car and Bike Services are also present on a daily basis to add to your comfort. Our motto is to get the work done efficiently and effectively. And that too, at affordable prices. To check out the wide range of our additional services, please contact the office of India Mistry. Do avail and enjoy these fantastic services. We look forward to serve you with the best of experiences."
+        android:layout_margin="10dp"
+        android:textAlignment="inherit"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:lineSpacingExtra="3.5dp"/>
+
+</LinearLayout>

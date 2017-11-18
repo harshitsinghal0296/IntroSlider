@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 digit mobile number"
+        android:textSize="14dp"
+        android:textColor="#00BB00"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/indianflag" />
+
+        <EditText
+            android:id="@+id/field_phone_number"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginLeft="7dp"
+            android:backgroundTint="#00BB00"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Before Logging in , Make sure that you are registered with Indian Mistry.You will get an OTP to complete the Login."
+        android:textSize="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_start_verification"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Login"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+
+
+        <Button
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/facebooklogo" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="OR"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="40dp"
+
+            android:background="@drawable/gmaillogo"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/field_verification_code"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BB00"
+        android:layout_gravity="center"
+        android:hint="Enter OTP :"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button_verify_phone"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Verify"
+        android:textColor="#00BB00"
+        android:textSize="18dp" />
+
+</LinearLayout>
